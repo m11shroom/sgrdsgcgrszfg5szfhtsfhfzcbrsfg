@@ -1,0 +1,237 @@
+[17-Aug-2026 20:32:17 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_delivery_cards.php on line 9
+[17-Aug-2026 20:33:14 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_delivery_cards.php on line 9
+[17-Aug-2026 20:33:14 Europe/Moscow] API action: 
+[17-Aug-2026 20:33:14 Europe/Moscow] GET: Array
+(
+)
+
+[17-Aug-2026 20:34:30 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_delivery_cards.php on line 9
+[17-Aug-2026 20:34:30 Europe/Moscow] API action: 
+[17-Aug-2026 20:34:30 Europe/Moscow] GET: Array
+(
+)
+
+[17-Aug-2026 20:34:31 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_delivery_cards.php on line 9
+[17-Aug-2026 20:34:31 Europe/Moscow] API action: 
+[17-Aug-2026 20:34:31 Europe/Moscow] GET: Array
+(
+)
+
+[17-Aug-2026 20:35:46 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_delivery_cards.php on line 9
+[17-Aug-2026 20:35:46 Europe/Moscow] API action: 
+[17-Aug-2026 20:35:46 Europe/Moscow] GET: Array
+(
+)
+
+[17-Aug-2026 20:35:48 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_delivery_cards.php on line 9
+[17-Aug-2026 20:35:48 Europe/Moscow] API action: 
+[17-Aug-2026 20:35:48 Europe/Moscow] GET: Array
+(
+)
+
+[17-Aug-2026 20:35:54 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_delivery_cards.php on line 9
+[17-Aug-2026 20:35:54 Europe/Moscow] API action: 
+[17-Aug-2026 20:35:54 Europe/Moscow] GET: Array
+(
+)
+
+[17-Aug-2026 20:38:32 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_delivery_cards.php on line 9
+[17-Aug-2026 21:05:55 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:05:59 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:06:03 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:09:46 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:09:53 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:10:15 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:10:19 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:10:22 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:10:29 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:10:29 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.name' in 'field list' in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php:197
+Stack trace:
+#0 /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php(197): PDO->query('SELECT o.*, t.n...')
+#1 {main}
+  thrown in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 197
+[17-Aug-2026 21:10:30 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:10:31 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:16:27 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:16:57 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:16:57 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:17:36 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:17:38 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:18:08 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:22:26 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:22:30 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:25:25 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:25:42 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:27:59 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:28:01 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:32:38 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:32:43 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:33:03 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:33:05 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:33:10 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:36:12 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 21:36:17 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:09:46 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:09:50 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:12:04 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:12:18 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:12:40 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:12:45 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:16:50 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:16:54 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:20:43 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:20:57 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:25:00 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:25:06 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:26:09 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:26:09 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:26:13 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:26:18 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:26:22 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:26:24 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:26:27 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:29:12 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:29:13 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:29:17 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:29:18 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:30:38 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:30:38 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:30:41 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:31:20 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:31:20 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:31:23 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:31:56 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:31:56 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:31:58 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:31:58 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:31:59 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:32:54 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:32:54 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:37:58 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:38:07 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:38:10 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:38:16 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:38:16 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'zone_id' in 'field list' in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php:180
+Stack trace:
+#0 /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php(180): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 180
+[17-Aug-2026 22:38:20 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:38:20 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'zone_id' in 'field list' in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php:180
+Stack trace:
+#0 /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php(180): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 180
+[17-Aug-2026 22:41:31 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:41:35 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:41:37 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:41:47 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:41:47 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'zone_id' in 'field list' in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php:198
+Stack trace:
+#0 /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php(198): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 198
+[17-Aug-2026 22:41:51 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:41:51 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'zone_id' in 'field list' in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php:198
+Stack trace:
+#0 /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php(198): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 198
+[17-Aug-2026 22:41:55 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:41:55 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'zone_id' in 'field list' in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php:198
+Stack trace:
+#0 /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php(198): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 198
+[17-Aug-2026 22:43:24 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:43:24 Europe/Moscow] Ошибка в card_order_api.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'zone_id' in 'field list' в файле /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php на строке 197
+[17-Aug-2026 22:43:26 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:43:26 Europe/Moscow] Ошибка в card_order_api.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'zone_id' in 'field list' в файле /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php на строке 197
+[17-Aug-2026 22:43:29 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:43:29 Europe/Moscow] Ошибка в card_order_api.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'zone_id' in 'field list' в файле /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php на строке 197
+[17-Aug-2026 22:43:32 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:43:32 Europe/Moscow] Ошибка в card_order_api.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'zone_id' in 'field list' в файле /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php на строке 197
+[17-Aug-2026 22:43:34 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:43:34 Europe/Moscow] Ошибка в card_order_api.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'zone_id' in 'field list' в файле /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php на строке 197
+[17-Aug-2026 22:43:36 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:43:36 Europe/Moscow] Ошибка в card_order_api.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'zone_id' in 'field list' в файле /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php на строке 197
+[17-Aug-2026 22:44:34 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:44:37 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:44:38 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:44:43 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:44:43 Europe/Moscow] Ошибка в card_order_api.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'latitude' in 'field list' в файле /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php на строке 184
+[17-Aug-2026 22:44:46 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:44:46 Europe/Moscow] Ошибка в card_order_api.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'latitude' in 'field list' в файле /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php на строке 184
+[17-Aug-2026 22:44:48 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:44:48 Europe/Moscow] Ошибка в card_order_api.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'latitude' in 'field list' в файле /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php на строке 184
+[17-Aug-2026 22:44:51 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:44:51 Europe/Moscow] Ошибка в card_order_api.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'latitude' in 'field list' в файле /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php на строке 184
+[17-Aug-2026 22:46:39 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:46:52 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:47:45 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:47:49 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:47:49 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:47:52 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 22:53:15 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:53:22 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:53:24 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:53:24 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.name' in 'field list' in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php:196
+Stack trace:
+#0 /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php(196): PDO->query('SELECT o.*, t.n...')
+#1 {main}
+  thrown in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 196
+[17-Aug-2026 22:53:26 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:53:26 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.name' in 'field list' in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php:194
+Stack trace:
+#0 /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php(194): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 194
+[17-Aug-2026 22:53:27 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:53:27 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.name' in 'field list' in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php:196
+Stack trace:
+#0 /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php(196): PDO->query('SELECT o.*, t.n...')
+#1 {main}
+  thrown in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 196
+[17-Aug-2026 22:53:28 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:53:31 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 22:53:31 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.name' in 'field list' in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php:196
+Stack trace:
+#0 /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php(196): PDO->query('SELECT o.*, t.n...')
+#1 {main}
+  thrown in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 196
+[17-Aug-2026 23:00:05 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 23:00:09 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 23:00:54 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 23:00:56 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 23:00:56 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.name' in 'field list' in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php:196
+Stack trace:
+#0 /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php(196): PDO->query('SELECT o.*, t.n...')
+#1 {main}
+  thrown in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 196
+[17-Aug-2026 23:01:05 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 23:03:30 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 23:03:35 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 23:03:36 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 23:03:39 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
+[17-Aug-2026 23:04:41 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 23:04:43 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 23:04:43 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.name' in 'field list' in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php:196
+Stack trace:
+#0 /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php(196): PDO->query('SELECT o.*, t.n...')
+#1 {main}
+  thrown in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 196
+[17-Aug-2026 23:04:46 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 23:04:46 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.name' in 'field list' in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php:194
+Stack trace:
+#0 /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php(194): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 194
+[17-Aug-2026 23:04:47 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[17-Aug-2026 23:04:47 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.name' in 'field list' in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php:196
+Stack trace:
+#0 /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php(196): PDO->query('SELECT o.*, t.n...')
+#1 {main}
+  thrown in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 196
+[17-Aug-2026 23:04:47 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[26-Aug-2026 20:46:26 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/admin_card_templates_api.php on line 9
+[27-Aug-2026 14:30:22 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/m/m1shrecs/bank.m1shroom.ru/public_html/config.php on line 16) in /home/m/m1shrecs/bank.m1shroom.ru/public_html/card_order_api.php on line 9
