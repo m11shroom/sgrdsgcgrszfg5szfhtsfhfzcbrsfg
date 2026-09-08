@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>m1plus — карта</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --text: #111;
+      --muted: rgba(17,17,17,.68);
+      --panel: rgba(255,255,255,.42);
+      --panel-border: rgba(255,255,255,.58);
+      --button-text: #fff;
+      --shadow: 0 28px 70px rgba(71, 16, 104, .24);
+      --card-radius: 24px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #fff;
+        --muted: rgba(255,255,255,.7);
+        --panel: rgba(0,0,0,.25);
+        --panel-border: rgba(255,255,255,.14);
+        --button-text: #fff;
+        --shadow: 0 28px 80px rgba(0,0,0,.4);
+      }
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 16% 8%, rgba(255,255,255,.5), transparent 30%),
+        radial-gradient(circle at 84% 18%, rgba(255,167,104,.4), transparent 31%),
+        linear-gradient(135deg, #ff9a9e 0%, #c471ed 45%, #7b2cbf 72%, #ff9966 130%);
+      background-attachment: fixed;
+      overflow-x: hidden;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background:
+          radial-gradient(circle at 18% 8%, rgba(255,255,255,.1), transparent 30%),
+          radial-gradient(circle at 82% 18%, rgba(255,116,78,.17), transparent 31%),
+          linear-gradient(135deg, #321b38 0%, #171326 48%, #09090d 100%);
+      }
+    }
+
+    .loader {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      display: grid;
+      place-items: center;
+      background:
+        radial-gradient(circle at 16% 8%, rgba(255,255,255,.5), transparent 30%),
+        linear-gradient(135deg, #ff9a9e 0%, #c471ed 48%, #ff9966 120%);
+      transition: opacity .55s ease, visibility .55s ease;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .loader {
+        background:
+          radial-gradient(circle at 20% 10%, rgba(255,255,255,.1), transparent 30%),
+          linear-gradient(135deg, #321b38, #09090d);
+      }
+    }
+
+    .loader.is-hidden {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .dots { display: flex; gap: 9px; }
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: currentColor;
+      animation: bounce .72s infinite ease-in-out alternate;
+    }
+    .dot:nth-child(2) { animation-delay: .12s; }
+    .dot:nth-child(3) { animation-delay: .24s; }
+
+    @keyframes bounce {
+      from { transform: translateY(7px); opacity: .45; }
+      to { transform: translateY(-7px); opacity: 1; }
+    }
+
+    .page {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 54px 0 72px;
+      opacity: 0;
+      transform: translateY(16px);
+      transition: opacity .8s ease, transform .8s ease;
+    }
+
+    body.loaded .page {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 30px;
+    }
+
+    .card-wrap {
+      width: min(680px, 94vw);
+      aspect-ratio: 1000 / 621;
+      perspective: 1400px;
+      cursor: pointer;
+      outline: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .card-wrap:focus-visible {
+      border-radius: var(--card-radius);
+      box-shadow: 0 0 0 4px rgba(255,255,255,.6);
+    }
+
+    .card {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transform-style: preserve-3d;
+      transition: transform .9s cubic-bezier(.2,.75,.2,1);
+      will-change: transform;
+      filter: drop-shadow(var(--shadow));
+    }
+
+    .card-wrap.flipped .card { transform: rotateY(180deg); }
+
+    .card-face {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      border-radius: var(--card-radius);
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.28);
+    }
+
+    .card-front {
+      background: #6f2cc3;
+    }
+
+    .card-front img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      border-radius: inherit;
+    }
+
+    .card-back {
+      display: grid;
+      place-items: center;
+      transform: rotateY(180deg);
+      background:
+        radial-gradient(circle at 50% 35%, rgba(255,255,255,.18), transparent 34%),
+        linear-gradient(135deg, #8c45e8, #5b1ca8);
+    }
+
+    .sad-face {
+      font-size: clamp(72px, 16vw, 150px);
+      line-height: 1;
+      font-weight: 400;
+      letter-spacing: -8px;
+      transform: translateX(-4px);
+      color: #0a5a1f;
+      text-shadow: 0 5px 0 rgba(0,0,0,.08);
+    }
+
+    .hint {
+      margin: -4px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .brand {
+      margin: 0;
+      font-size: clamp(46px, 10vw, 92px);
+      line-height: .9;
+      letter-spacing: -0.065em;
+      font-weight: 850;
+    }
+
+    .subtitle {
+      max-width: 650px;
+      margin: -8px 0 0;
+      font-size: clamp(18px, 3vw, 24px);
+      line-height: 1.35;
+      color: var(--muted);
+    }
+
+    .benefits {
+      width: min(820px, 100%);
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin-top: 8px;
+    }
+
+    .benefit {
+      padding: 22px 18px;
+      border: 1px solid var(--panel-border);
+      border-radius: 22px;
+      background: var(--panel);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      box-shadow: 0 15px 40px rgba(0,0,0,.08);
+    }
+
+    .benefit strong {
+      display: block;
+      font-size: 19px;
+      line-height: 1.15;
+      margin-bottom: 7px;
+    }
+
+    .benefit span {
+      display: block;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.35;
+    }
+
+    .cta {
+      border: 0;
+      border-radius: 999px;
+      padding: 17px 30px;
+      min-width: 230px;
+      font: inherit;
+      font-weight: 800;
+      font-size: 17px;
+      color: var(--button-text);
+      background: #111;
+      cursor: pointer;
+      box-shadow: 0 14px 30px rgba(0,0,0,.2);
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .cta { background: #fff; color: #111; }
+    }
+
+    .cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 18px 38px rgba(0,0,0,.25);
+    }
+
+    .cta:active { transform: translateY(0) scale(.98); }
+
+    .modal {
+      position: fixed;
+      inset: 0;
+      z-index: 500;
+      display: grid;
+      place-items: center;
+      padding: 20px;
+      background: rgba(0,0,0,.45);
+      backdrop-filter: blur(9px);
+      -webkit-backdrop-filter: blur(9px);
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition: opacity .25s ease, visibility .25s ease;
+    }
+
+    .modal.open {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+
+    .modal-box {
+      width: min(440px, 100%);
+      padding: 30px;
+      border-radius: 28px;
+      background: rgba(255,255,255,.88);
+      color: #111;
+      box-shadow: 0 30px 90px rgba(0,0,0,.28);
+      transform: translateY(12px) scale(.97);
+      transition: transform .25s ease;
+      text-align: center;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .modal-box {
+        background: rgba(28,28,32,.94);
+        color: #fff;
+      }
+    }
+
+    .modal.open .modal-box {
+      transform: translateY(0) scale(1);
+    }
+
+    .modal-box h2 {
+      margin: 0 0 10px;
+      font-size: 26px;
+    }
+
+    .modal-box p {
+      margin: 0 0 22px;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    .close {
+      border: 0;
+      border-radius: 999px;
+      padding: 13px 22px;
+      font: inherit;
+      font-weight: 750;
+      cursor: pointer;
+      background: #111;
+      color: #fff;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .close { background: #fff; color: #111; }
+    }
+
+    @media (max-width: 700px) {
+      .page { width: min(100% - 20px, 920px); padding-top: 28px; }
+      .hero { gap: 22px; }
+      .benefits { grid-template-columns: 1fr; }
+      .benefit { padding: 18px; }
+      .card-wrap { width: 96vw; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: .01ms !important;
+        transition-duration: .01ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="loader" id="loader" aria-label="Загрузка">
+    <div class="dots" aria-hidden="true">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+
+  <main class="page">
+    <section class="hero">
+      <div
+        class="card-wrap"
+        id="cardWrap"
+        tabindex="0"
+        role="button"
+        aria-label="Перевернуть карту"
+        aria-pressed="false"
+      >
+        <div class="card">
+          <div class="card-face card-front">
+            <img id="cardImage" src="https://m1plus.pw/m1.png" alt="Карта m1plus">
+          </div>
+          <div class="card-face card-back" aria-hidden="true">
+            <div class="sad-face">:(</div>
+          </div>
+        </div>
+      </div>
+
+      <p class="hint">Нажми на карту, чтобы перевернуть</p>
+
+      <h1 class="brand">m1plus</h1>
+      <p class="subtitle">Электронный кошелёк с картой для удобных покупок и онлайн-сервисов.</p>
+
+      <div class="benefits">
+        <div class="benefit">
+          <strong>доставка от одного дня</strong>
+          <span>После оформления заказа</span>
+        </div>
+        <div class="benefit">
+          <strong>кэшбэк до 99%</strong>
+          <span>Возвращай часть стоимости покупок</span>
+        </div>
+        <div class="benefit">
+          <strong>договор онлайн</strong>
+          <span>Можно подписать договор полностью онлайн</span>
+        </div>
+      </div>
+
+      <button class="cta" id="orderButton" type="button">заказать карту</button>
+    </section>
+  </main>
+
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-box">
+      <h2 id="modalTitle">Пока недоступно</h2>
+      <p>К сожалению, эти карты ещё не доступны для доставки.</p>
+      <button class="close" id="closeButton" type="button">закрыть</button>
+    </div>
+  </div>
+
+  <script>
+    const loader = document.getElementById('loader');
+    const page = document.querySelector('.page');
+    const cardImage = document.getElementById('cardImage');
+    const cardWrap = document.getElementById('cardWrap');
+    const modal = document.getElementById('modal');
+    const orderButton = document.getElementById('orderButton');
+    const closeButton = document.getElementById('closeButton');
+
+    function showPage() {
+      document.body.classList.add('loaded');
+      loader.classList.add('is-hidden');
+    }
+
+    if (cardImage.complete) {
+      showPage();
+    } else {
+      cardImage.addEventListener('load', showPage, { once: true });
+      cardImage.addEventListener('error', showPage, { once: true });
+    }
+
+    // Фолбэк: страница не должна оставаться на прелоадере бесконечно.
+    setTimeout(showPage, 5000);
+
+    function toggleCard() {
+      const flipped = cardWrap.classList.toggle('flipped');
+      cardWrap.setAttribute('aria-pressed', String(flipped));
+    }
+
+    cardWrap.addEventListener('click', toggleCard);
+    cardWrap.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        toggleCard();
+      }
+    });
+
+    function openModal() {
+      modal.classList.add('open');
+      closeButton.focus();
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      modal.classList.remove('open');
+      document.body.style.overflow = '';
+      orderButton.focus();
+    }
+
+    orderButton.addEventListener('click', openModal);
+    closeButton.addEventListener('click', closeModal);
+
+    modal.addEventListener('click', (event) => {
+      if (event.target === modal) closeModal();
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && modal.classList.contains('open')) {
+        closeModal();
+      }
+    });
+  </script>
+</body>
+</html>
